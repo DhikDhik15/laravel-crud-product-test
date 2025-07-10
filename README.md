@@ -23,22 +23,5 @@ API Untuk manajemen produk.
 6. php artisan db:seed
 7. php artisan serve
 
-## 📊 ER Diagram
-users
-- id (PK)
-- name
-- email
-- password
-- position_id (FK)
-- department_id (FK)
-- hire_date
-
-Divisions
-- id (PK)
-- name
-
-Positions
-- id (PK)
-- name 
 
 
